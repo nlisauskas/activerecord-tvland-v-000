@@ -8,5 +8,9 @@ class Actor < ActiveRecord::Base
     join(first," ",last)
   end
 
+  def list_roles
+    self.characters
+  end
+
 
 end
