@@ -10,8 +10,4 @@ class Character < ActiveRecord::Base
     show
   end
 
-  def build_network
-    
-  end
-
 end
