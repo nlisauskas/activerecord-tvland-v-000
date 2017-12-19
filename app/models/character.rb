@@ -9,4 +9,9 @@ class Character < ActiveRecord::Base
   def self.show
     show
   end
+
+  def build_network
+    
+  end
+
 end
